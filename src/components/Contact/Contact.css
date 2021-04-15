@@ -1,0 +1,33 @@
+#contact {
+    min-height: 30vh;
+    height: 30vh;
+    align-items: center;
+    background: rgb(83, 83, 83);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(15, 150, 15);
+  text-shadow: 1.5px 1.5px rgba(0,0,0,0.7);
+}
+
+.email {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.email-link:link, .email-link:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1px;
+}
+
+

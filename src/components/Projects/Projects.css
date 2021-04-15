@@ -1,0 +1,86 @@
+#projects {
+    min-height: 100vh;
+    height: 100vh;
+    align-items: center;
+    background: #fff;
+    padding: 0rem 5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(15, 150, 15);
+    margin: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.project-text {
+    text-align: left;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.project-info {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    margin-block-start: -1.75rem;
+}
+
+.see-live:link, .see-live:visited {
+    margin-right: 1.5rem;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 3px rgba(50, 50, 70, 0.3);
+    border-radius: 0.25em;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.see-live:hover {
+    background-color: #fff;
+    color: rgb(15, 150, 15);
+}
+
+.source-code:link, .source-code:visited {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+
+.source-code:hover {
+    color: rgb(15, 150, 15);
+    text-decoration: underline;
+}
+
+.card {
+    margin: 1rem;
+    padding: 0.25em;
+    box-shadow: 3px 3px 6px 6px rgba(50, 50, 70, 0.3);
+}
+
+.project-image {
+    min-width: 100%;
+    min-height: 100%;
+}
