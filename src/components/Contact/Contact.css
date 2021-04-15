@@ -1,6 +1,5 @@
 #contact {
-    min-height: 30vh;
-    height: 30vh;
+    min-height: 25vh;
     align-items: center;
     background: rgb(83, 83, 83);
     padding-top: 2rem;
@@ -9,15 +8,15 @@
 }
 
 .contact-title {
-  font-size: 5rem;
-  font-weight: 700;
-  color: rgb(15, 150, 15);
-  text-shadow: 1.5px 1.5px rgba(0,0,0,0.7);
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(15, 150, 15);
+    text-shadow: 1.5px 3px rgba(255, 255, 255, 0.7);
 }
 
 .email {
-    padding: 1rem;
-    flex-grow: 1;
+    padding: 3rem;
+    /* flex-grow: 1; */
 }
 
 .email-link:link, .email-link:visited {
@@ -30,4 +29,8 @@
     padding-bottom: 1px;
 }
 
+.social-links {
+    padding: 2rem;
+    display: inline-block
 
+}
