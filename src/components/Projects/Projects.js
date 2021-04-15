@@ -3,14 +3,14 @@ import "./Projects.css";
 import faceDetection from "./assets/faceDetection.png";
 import birthdayCard from "./assets/birthday card.png";
 import robofriend from "./assets/robofriend.png";
-import VanillaTilt from 'vanilla-tilt'
+import VanillaTilt from "vanilla-tilt";
 
 const cardTilt = () => {
   VanillaTilt.init(document.querySelectorAll(".card"), {
-		max: 25,
-		speed: 400
-	});
-}
+    max: 25,
+    speed: 400,
+  });
+};
 
 function Projects() {
   return (
@@ -27,7 +27,6 @@ function Projects() {
                 the face and display a blue rectangle.
               </p>
             </div>
-
             <a
               className="see-live"
               href="https://peaceful-plains-96573.herokuapp.com"
@@ -47,11 +46,17 @@ function Projects() {
           </div>
 
           <div className="card" onMouseOver={cardTilt}>
-            <img
-              className="project-image"
-              src={faceDetection}
-              alt="project 1"
-            />
+            <a
+              href="https://peaceful-plains-96573.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="project-image"
+                src={faceDetection}
+                alt="project 1"
+              />
+            </a>
           </div>
         </div>
 
@@ -69,18 +74,26 @@ function Projects() {
             <a
               className="see-live"
               href="https://peaceful-plains-96573.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
             >
               See Live
             </a>
             <a
               className="source-code"
               href="https://github.com/tabbathacrouch/facerecognition_frontend"
+              target="_blank"
+              rel="noreferrer"
             >
               Source Code
             </a>
           </div>
           <div className="card" onMouseOver={cardTilt}>
-            <a href="https://peaceful-plains-96573.herokuapp.com">
+            <a
+              href="https://peaceful-plains-96573.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="project-image"
                 src={birthdayCard}
@@ -101,18 +114,26 @@ function Projects() {
             <a
               className="see-live"
               href="https://peaceful-plains-96573.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
             >
               See Live
             </a>
             <a
               className="source-code"
               href="https://github.com/tabbathacrouch/Robofriends"
+              target="_blank"
+              rel="noreferrer"
             >
               Source Code
             </a>
           </div>
           <div className="card" onMouseOver={cardTilt}>
-            <a href="https://peaceful-plains-96573.herokuapp.com">
+            <a
+              href="https://peaceful-plains-96573.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="project-image" src={robofriend} alt="project 1" />
             </a>
           </div>
