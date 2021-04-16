@@ -1,16 +1,10 @@
 import React from "react";
+import CardTilt from "./CardTilt.js";
 import "./Projects.css";
 import faceDetection from "./assets/faceDetection.png";
 import birthdayCard from "./assets/birthday card.png";
 import robofriend from "./assets/robofriend.png";
-import VanillaTilt from "vanilla-tilt";
 
-const cardTilt = () => {
-  VanillaTilt.init(document.querySelectorAll(".card"), {
-    max: 25,
-    speed: 400,
-  });
-};
 
 function Projects() {
   return (
@@ -45,7 +39,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="card" onMouseOver={cardTilt}>
+          <div className="card" onMouseOver={CardTilt}>
             <a
               href="https://peaceful-plains-96573.herokuapp.com"
               target="_blank"
@@ -88,7 +82,7 @@ function Projects() {
               Source Code
             </a>
           </div>
-          <div className="card" onMouseOver={cardTilt}>
+          <div className="card" onMouseOver={CardTilt}>
             <a
               href="https://peaceful-plains-96573.herokuapp.com"
               target="_blank"
@@ -128,7 +122,7 @@ function Projects() {
               Source Code
             </a>
           </div>
-          <div className="card" onMouseOver={cardTilt}>
+          <div className="card" onMouseOver={CardTilt}>
             <a
               href="https://peaceful-plains-96573.herokuapp.com"
               target="_blank"
