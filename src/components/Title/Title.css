@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     text-align: left;
-    background: #fff;
-    color: rgb(15, 150, 15);
+    background: #2F4858;
+    color: #FFBC0A;
     padding: 0rem 5rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
     letter-spacing: 0.025em;
@@ -19,10 +19,10 @@ h1 {
 .title-btn {
     border: none;
     outline: none;
-    color: rgb(15, 150, 15);
+    color: #FFBC0A;
     background-color: transparent;
     box-sizing: border-box;
-    box-shadow: 3px 3px 6px 6px rgba(50, 50, 70, 0.3);
+    box-shadow: 6px 6px 12px 12px rgba(50, 50, 70, 0.3);
     border-radius: 0.25em;
     padding: 0.3em 1.2em;
     cursor: pointer;

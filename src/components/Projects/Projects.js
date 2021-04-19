@@ -1,6 +1,7 @@
 import React from "react";
 import CardTilt from "./CardTilt.js";
 import "./Projects.css";
+import onlineTest from './assets/online-test.png';
 import faceDetection from "./assets/faceDetection.png";
 import birthdayCard from "./assets/birthday card.png";
 import robofriend from "./assets/robofriend.png";
@@ -11,6 +12,47 @@ function Projects() {
     <div id="projects">
       <h2>Projects</h2>
       <div className="projects-container">
+      <div className="row">
+          <div className="project-text">
+            <p className="project-title">Math Test Generator</p>
+            <div>
+              <p className="project-info">
+                Create a test with multiple choice, short answer, or check box style questions.<br/>Once a test is created, share the link and test code.
+                &nbsp;&nbsp;View reponses and metrics from each test you create in your personalized dashboard.&nbsp;&nbsp;Register as a user today! 
+              </p>
+            </div>
+            <a
+              className="see-live"
+              href="https://math-test-maker.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See Live
+            </a>
+            <a
+              className="source-code"
+              href="https://github.com/tabbathacrouch/Math-Test-Maker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source Code
+            </a>
+          </div>
+
+          <div className="card" onMouseOver={CardTilt}>
+            <a
+              href="https://math-test-maker.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="project-image"
+                src={onlineTest}
+                alt="project 1"
+              />
+            </a>
+          </div>
+        </div>
         <div className="row">
           <div className="project-text">
             <p className="project-title">Face Detection App</p>

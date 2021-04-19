@@ -1,7 +1,7 @@
 #contact {
     min-height: 25vh;
     align-items: center;
-    background: rgb(83, 83, 83);
+    background: rgb(50, 50, 50);
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,7 @@
 .contact-title {
     font-size: 5rem;
     font-weight: 700;
-    color: rgb(15, 150, 15);
-    text-shadow: 1.5px 3px rgba(255, 255, 255, 0.7);
+    color: #FFBC0A;
 }
 
 .email {

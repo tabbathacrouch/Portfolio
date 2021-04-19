@@ -1,16 +1,16 @@
 #projects {
     min-height: 75vh;
     align-items: center;
-    background: #fff;
+    background: #2F4858;
     padding: 3rem 3rem 0rem 3rem;
 }
 
 h2 {
     font-size: 3.5rem;
     font-weight: 700;
-    color: rgb(15, 150, 15);
+    color: #FFBC0A;
     margin: 0;
-    text-shadow: 1.5px 3px rgba(83, 83, 83, 0.5);
+    text-align: center;
 }
 
 .projects-container {
@@ -27,12 +27,14 @@ h2 {
 
 .project-text {
     text-align: left;
+    color: #fff;
 }
 
 .project-title {
     font-size: 1.5rem;
     font-weight: 700;
     padding-bottom: 1rem;
+    color: #FFBC0A;
 }
 
 .project-info {
@@ -50,34 +52,36 @@ h2 {
     border: none;
     outline: none;
     box-sizing: border-box;
-    box-shadow: 1px 1px 3px 3px rgba(50, 50, 70, 0.3);
+    box-shadow: 6px 6px 12px 12px rgba(50, 50, 70, 0.3);
     border-radius: 0.25em;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFBC0A;
+    background-color: #2F4858;
 }
 
 .see-live:hover {
-    background-color: #fff;
-    color: rgb(15, 150, 15);
+    background-color: rgba(169, 169, 169, 0.3);
+    transition: 200ms all ease-in-out;
 }
 
 .source-code:link, .source-code:visited {
     font-size: 1.15rem;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.8);
+    color: #fff;
     text-decoration: none;
 }
 
 .source-code:hover {
-    color: rgb(15, 150, 15);
+    color: #FFBC0A;
     text-decoration: underline;
 }
 
 .card {
     margin: 1rem;
     padding: 0.25em;
-    box-shadow: 3px 3px 6px 6px rgba(50, 50, 70, 0.3);
+    box-shadow: 6px 6px 12px 12px rgba(50, 50, 50, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 200px;
+    background-color: #fff;
 }
