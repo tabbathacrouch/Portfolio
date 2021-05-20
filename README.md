@@ -1,4 +1,5 @@
 # Tabbatha's Portfolio
 
 (Live) --> https://tabbathacrouch.com/
-(Deployted) --> https://tabbathas-portfolio.herokuapp.com/
+
+(Deployed) --> https://tabbathas-portfolio.herokuapp.com/
