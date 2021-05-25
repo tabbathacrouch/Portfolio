@@ -74,7 +74,7 @@ function Projects() {
             </div>
             <a
               className="see-live"
-              href="https://peaceful-plains-96573.herokuapp.com"
+              href="https://ancient-garden-59060.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -91,7 +91,7 @@ function Projects() {
           </div>
           <div className="card" onMouseOver={CardTilt}>
             <a
-              href="https://peaceful-plains-96573.herokuapp.com"
+              href="https://ancient-garden-59060.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
