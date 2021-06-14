@@ -3,7 +3,7 @@ import CardTilt from "./CardTilt.js";
 import "./Projects.css";
 import onlineTest from "./assets/online-test.png";
 import faceDetection from "./assets/faceDetection.png";
-import birthdayCard from "./assets/birthday card.png";
+import robot from "./assets/robot.png";
 import mathOperations from "./assets/keys.jpg";
 
 function Projects() {
@@ -106,18 +106,40 @@ function Projects() {
 
         <div className="row">
           <div className="project-text">
-            <p className="project-title">Birthday Cards</p>
+            <p className="project-title">RoboFriends</p>
             <div>
               <p className="project-info">
-                I love sending birthday cards to friends and family
-                members!&nbsp;&nbsp;I created an app that helps me keep track of
-                all their birthdays, generates number facts using an API, and
-                creates a birthday card using an printable template.
+                A react app that utilizes redux. It features a search box, an
+                API call to{" "}
+                <a
+                  href="https://robohash.org/15?size=200x200"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  robohash.org
+                </a>
+                , and a simple fetch of{" "}
+                <a
+                  href="https://jsonplaceholder.typicode.com/users"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  user data
+                </a>
+                . This project is from Udemy's "
+                <a
+                  href="https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  The Complete Junior to Senior Web Developer Roadmap (2021)
+                </a>
+                " course, created by Andrei Neagoie.
               </p>
             </div>
             <a
               className="see-live"
-              href="https://peaceful-plains-96573.herokuapp.com"
+              href="https://tabbathacrouch.github.io/Robofriends-React-Redux/"
               target="_blank"
               rel="noreferrer"
             >
@@ -125,7 +147,7 @@ function Projects() {
             </a>
             <a
               className="source-code"
-              href="https://github.com/tabbathacrouch/facerecognition_frontend"
+              href="https://github.com/tabbathacrouch/Robofriends-React-Redux"
               target="_blank"
               rel="noreferrer"
             >
@@ -138,11 +160,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="project-image"
-                src={birthdayCard}
-                alt="project 1"
-              />
+              <img className="project-image" src={robot} alt="project 1" />
             </a>
           </div>
         </div>

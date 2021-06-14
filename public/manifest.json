@@ -1,0 +1,16 @@
+{
+  "short_name": "Portfolio",
+  "name": "Tabbatha Crouch's Software Engineering Portfolio",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

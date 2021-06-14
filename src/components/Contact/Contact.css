@@ -1,35 +1,35 @@
 #contact {
-    min-height: 25vh;
-    align-items: center;
-    background: rgb(50, 50, 50);
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
+  min-height: 25vh;
+  align-items: center;
+  background: rgba(50, 50, 50, 0.8);
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-title {
-    font-size: 5rem;
-    font-weight: 700;
-    color: #FFBC0A;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffbc0a;
 }
 
 .email {
-    padding: 3rem;
-    /* flex-grow: 1; */
+  padding: 3rem;
+  /* flex-grow: 1; */
 }
 
-.email-link:link, .email-link:visited {
-    color: #fff;
-    text-decoration: none;
+.email-link:link,
+.email-link:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .email-link:hover {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 1px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1px;
 }
 
 .social-links {
-    padding: 2rem;
-    display: inline-block
-
+  padding: 2rem;
+  display: inline-block;
 }

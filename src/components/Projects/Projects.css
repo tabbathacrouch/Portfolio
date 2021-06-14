@@ -94,7 +94,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
+  align-self: center;
+  min-width: 192px;
+  max-height: 192px;
   background-color: #fff;
   margin-bottom: 0;
+}
+
+.project-image {
+  max-width: 192px;
 }
