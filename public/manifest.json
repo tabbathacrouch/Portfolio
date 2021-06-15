@@ -2,6 +2,7 @@
   "short_name": "Portfolio",
   "name": "Tabbatha Crouch's Software Engineering Portfolio",
   "start_url": "./index.html",
+  "homepage": "https://tabbathacrouch.com/",
   "icons": [
     {
       "src": "favicon.ico",
