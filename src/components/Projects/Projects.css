@@ -1,11 +1,11 @@
 #projects {
   align-items: center;
   background: #2f4858;
-  padding: 3rem 3rem 0rem 3rem;
+  padding: 3em 3em 0em 3em;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.5em;
   font-weight: 700;
   color: #ffbc0a;
   margin: 0;
@@ -21,8 +21,8 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
-  margin-bottom: 3rem;
+  padding: 1em;
+  margin-bottom: 3em;
 }
 
 .project-text {
@@ -31,17 +31,17 @@ h2 {
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
   color: #ffbc0a;
 }
 
 .project-info {
-  font-size: 1.25rem;
-  padding-bottom: 1rem;
-  margin-block-start: -1.75rem;
-  margin-right: 5rem;
+  font-size: 1.25em;
+  padding-bottom: 1em;
+  margin-block-start: -1.75em;
+  margin-right: 5em;
 }
 
 .project-info > a {
@@ -55,10 +55,10 @@ h2 {
 
 .see-live:link,
 .see-live:visited {
-  margin-right: 1.5rem;
+  margin-right: 1.5em;
   padding: 0.5em;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.15em;
   font-weight: 500;
   border: none;
   outline: none;
@@ -76,7 +76,7 @@ h2 {
 
 .source-code:link,
 .source-code:visited {
-  font-size: 1.15rem;
+  font-size: 1.15em;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
@@ -88,12 +88,12 @@ h2 {
 }
 
 .card {
-  margin: 1rem;
+  margin: 1em;
   padding: 0.25em;
   box-shadow: 6px 6px 12px 12px rgba(50, 50, 50, 0.7);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-self: center;
   min-width: 192px;
   max-height: 192px;

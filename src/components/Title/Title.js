@@ -11,7 +11,7 @@ function Title() {
           <br />
           I'm a Software Developer.
         </h1>
-        <p>
+        <div className="buttons-title">
           <Link to="about" activeClass="active" spy={true} smooth={true}>
             <button type="button" className="title-btn">
               Learn more
@@ -22,7 +22,7 @@ function Title() {
               Contact me
             </button>
           </Link>
-        </p>
+        </div>
       </div>
     </div>
   );
