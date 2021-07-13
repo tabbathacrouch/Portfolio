@@ -9,7 +9,7 @@ import mathOperations from "./assets/keys.jpg";
 function Projects() {
   return (
     <div id="projects">
-      <h2>Projects</h2>
+      <div className="projects-sectionTitle">Projects</div>
       <div className="projects-container">
         <div className="row">
           <div className="project-text">
@@ -47,7 +47,13 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img className="project-image" src={onlineTest} alt="project 1" />
+              <img
+                className="project-image"
+                src={onlineTest}
+                alt="project 1"
+                width="192px"
+                height="192px"
+              />
             </a>
           </div>
         </div>
@@ -99,6 +105,8 @@ function Projects() {
                 className="project-image"
                 src={mathOperations}
                 alt="project 1"
+                width="192px"
+                height="192px"
               />
             </a>
           </div>
@@ -160,7 +168,13 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img className="project-image" src={robot} alt="project 1" />
+              <img
+                className="project-image"
+                src={robot}
+                alt="project 1"
+                width="192px"
+                height="192px"
+              />
             </a>
           </div>
         </div>
@@ -202,6 +216,8 @@ function Projects() {
                 className="project-image"
                 src={faceDetection}
                 alt="project 1"
+                width="192px"
+                height="192px"
               />
             </a>
           </div>

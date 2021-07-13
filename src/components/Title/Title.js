@@ -6,11 +6,11 @@ function Title() {
   return (
     <div id="title">
       <div>
-        <h1 className="hero-title">
+        <div className="title-sectionTitle">
           Hey there, my name is Tabbatha Crouch.
           <br />
           I'm a Software Developer.
-        </h1>
+        </div>
         <div className="buttons-title">
           <Link to="about" activeClass="active" spy={true} smooth={true}>
             <button type="button" className="title-btn">

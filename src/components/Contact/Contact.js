@@ -18,14 +18,19 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="linkedin icon" src={linkedInLogo} />
+          <img
+            alt="linkedin icon"
+            src={linkedInLogo}
+            width="64px"
+            height="55px"
+          />
         </a>
         <a
           href="https://github.com/tabbathacrouch"
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="github icon" src={githubLogo} />
+          <img alt="github icon" src={githubLogo} width="64px" height="64px" />
         </a>
       </div>
     </div>

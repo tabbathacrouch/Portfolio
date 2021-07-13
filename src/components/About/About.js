@@ -8,19 +8,21 @@ function About() {
   return (
     <div id="about">
       <h2 className="section-title">About me</h2>
-      <div>
+      <div className="about-container">
         <img
           className="profile-image"
+          width="450px"
+          height="300px"
           id="profile"
           src={profile}
           alt="Profile"
         />
-        <div className="about-info-text">
-          <p>
+        <div className="about-info">
+          <div className="about-info-text">
             I recently completed Udemy's The Complete Web Developer in 2021:
             Zero to Mastery. <br />
             Check out my projects below!
-          </p>
+          </div>
           <div className="buttons">
             <Link to="projects" activeClass="active" spy={true} smooth={true}>
               <button type="button" className="about-btn">
