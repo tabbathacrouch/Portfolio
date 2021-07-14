@@ -7,12 +7,12 @@ import "./About.css";
 function About() {
   return (
     <div id="about">
-      <h2 className="section-title">About me</h2>
+      <div className="section-title">About me</div>
       <div className="about-container">
         <img
           className="profile-image"
-          width="450px"
-          height="300px"
+          maxwidth="450px"
+          maxheight="300px"
           id="profile"
           src={profile}
           alt="Profile"

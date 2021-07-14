@@ -1,19 +1,23 @@
 #contact {
-  min-height: 25vh;
   align-items: center;
   background: #444444;
   display: flex;
   flex-direction: column;
+  padding: 10vh;
 }
 
 .contact-title {
-  font-size: 5.5vw;
+  display: flex;
+  font-size: 76px;
   font-weight: 700;
   color: #ffbc0a;
+  text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+  border-bottom: 5px solid #ffbc0a;
 }
 
 .email {
-  font-size: 1.75vw;
+  font-size: 22px;
+  padding-top: 5vh;
 }
 
 .email-link:link,
@@ -27,7 +31,20 @@
 }
 
 .social-links {
-  padding: 2vw;
   display: flex;
   align-items: center;
+  padding-top: 5vh;
+}
+
+.github {
+  padding-left: 2.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-title {
+    font-size: 36px;
+  }
+  .email {
+    font-size: 14px;
+  }
 }

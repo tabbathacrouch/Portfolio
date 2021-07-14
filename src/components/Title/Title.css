@@ -1,19 +1,16 @@
 #title {
-  min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
-  text-align: left;
   background: #2f4858;
   color: #ffbc0a;
   padding: 3vw;
 }
 
 .title-sectionTitle {
-  font-size: 3.5vw;
   font-weight: 700;
-  margin-bottom: 3vw;
-  letter-spacing: 0.05vw;
+  font-size: 45px;
+  padding-bottom: 3vh;
 }
 
 .title-btn {
@@ -21,13 +18,11 @@
   outline: none;
   color: #ffbc0a;
   background-color: transparent;
-  box-sizing: border-box;
   box-shadow: 6px 6px 12px 12px rgba(50, 50, 70, 0.3);
   border-radius: 0.25em;
   padding: 0.3em 1.2em;
   cursor: pointer;
-  font-size: 2vw;
-  margin-right: 3em;
+  font-size: 24px;
 }
 
 .title-btn:hover {
@@ -37,4 +32,14 @@
 
 .buttons-title {
   display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  .title-sectionTitle {
+    font-size: 26px;
+  }
+  .title-btn {
+    font-size: 16px;
+  }
 }

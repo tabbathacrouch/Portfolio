@@ -6,7 +6,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <div id="contact">
-      <h2 className="contact-title">Contact</h2>
+      <div className="contact-title">Contact</div>
       <div className="email">
         <a className="email-link" href="mailto:tabbathacrouch@gmail.com">
           tabbathacrouch@gmail.com
@@ -30,7 +30,13 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="github icon" src={githubLogo} width="64px" height="64px" />
+          <img
+            alt="github icon"
+            src={githubLogo}
+            width="64px"
+            height="64px"
+            className="github"
+          />
         </a>
       </div>
     </div>
