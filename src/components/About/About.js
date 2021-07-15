@@ -11,8 +11,8 @@ function About() {
       <div className="about-container">
         <img
           className="profile-image"
-          maxwidth="450px"
-          maxheight="300px"
+          width="450px"
+          height="300px"
           id="profile"
           src={profile}
           alt="Profile"

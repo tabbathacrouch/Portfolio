@@ -66,6 +66,7 @@
   }
 
   .profile-image {
-    width: 300px;
+    width: 76%;
+    height: 76%;
   }
 }
