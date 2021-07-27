@@ -35,7 +35,7 @@
   font-weight: 700;
   color: #ffbc0a;
   text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
-  padding-bottom: 2vh;
+  margin-bottom: 0.5em;
 }
 
 .project-info {

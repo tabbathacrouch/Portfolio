@@ -17,10 +17,11 @@ function Projects() {
             <div>
               <div className="project-info">
                 Create a test with multiple choice, short answer, or check box
-                style questions.&nbsp;&nbsp;Once a test is created, share the
-                link and test code.&nbsp;&nbsp;View reponses and metrics from
-                each test you create in your personalized
-                dashboard.&nbsp;&nbsp;Register as a user today!
+                style questions. Once a test is created, share the link and test
+                code. View reponses and metrics from each test you create in
+                your personalized dashboard. Register as a user today! <br />
+                All of the forms in this React app use MaterialUI, Formik, and
+                Yup (form validation).
               </div>
             </div>
             <a
@@ -63,14 +64,11 @@ function Projects() {
             <div className="project-title">Gardening</div>
             <div>
               <div className="project-info">
-                Upload photos of plants to identify them, enter your zip code to
-                determine which hardiness zone you live in, and save the type of
-                plants you have in your personal garden database. This react app
-                will call upon two great APIs to identify facts about your
-                hardiness zone and the photos of plants you upload.
-                Additionally, you can create a calendar with watering and
-                fertizilation information to keep the plants in your garden
-                happy and healthy.
+                This React app utilizes Bootstrap (v5.0) and fetches information
+                from two APIs. You can input a zipcode and determine your
+                hardiness zone as well as learn what types of plants thrive in
+                your area. Or you can upload one or more photos of a plant you
+                wish to identify.
               </div>
             </div>
             <a
@@ -123,9 +121,8 @@ function Projects() {
                 >
                   mathisfun.com
                 </a>{" "}
-                website.&nbsp;&nbsp;This resource contains an interactive number
-                chart, embedded Phet&trade; simulations, and a searchable
-                glossary.
+                website. This resource contains an interactive number chart,
+                embedded Phet&trade; simulations, and a searchable glossary.
               </div>
             </div>
             <a
@@ -167,9 +164,17 @@ function Projects() {
             <div className="project-title">Face Detection App</div>
             <div>
               <div className="project-info">
-                Sign in or register a user and detect faces using a Clarifai
-                API. Simply enter the url of an image and watch the API locate
-                the face and display a blue rectangle.
+                Sign in or register a user and detect faces in an image using
+                the{" "}
+                <a
+                  href="https://www.clarifai.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Clarifai
+                </a>{" "}
+                API. Simply enter the url of an image and watch the API detect
+                the faces.
               </div>
             </div>
             <a
