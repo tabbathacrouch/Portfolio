@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-scroll";
 import resume from "./assets/Tabbatha Crouch_Resume.pdf";
 import profile from "./assets/profile.jpg";
+import cert1 from "./assets/Udemy Certificate_Course 1.pdf";
+import cert2 from "./assets/Udemy Certificate_Course 2.pdf";
 import "./About.css";
 
 function About() {
@@ -19,8 +21,23 @@ function About() {
         />
         <div className="about-info">
           <div className="about-info-text">
-            I recently completed Udemy's The Complete Web Developer in 2021:
-            Zero to Mastery. <br />
+            I recently completed Udemy's{" "}
+            <a href={cert1} target="_blank" rel="noreferrer">
+              The Complete Web Developer in 2021: Zero to Mastery
+            </a>{" "}
+            and{" "}
+            <a href={cert2} target="_blank" rel="noreferrer">
+              The Complete Junior to Senior Web Developer Roadmap (2021)
+            </a>{" "}
+            courses as taught by{" "}
+            <a
+              href="https://www.udemy.com/user/andrei-neagoie/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Andrei Neagoie
+            </a>
+            . <br />
             Check out my projects below!
           </div>
           <div className="buttons">

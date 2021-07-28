@@ -11,7 +11,7 @@
   font-weight: 700;
   color: #ffbc0a;
   font-size: 76px;
-  text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+  text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
   border-bottom: 5px solid #ffbc0a;
 }
 
@@ -52,6 +52,15 @@
   background-color: #fff;
   color: #2f4858;
   transition: 200ms all ease-in-out;
+}
+
+.about-info-text > a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-info-text > a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
