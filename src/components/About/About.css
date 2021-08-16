@@ -1,4 +1,4 @@
-#about {
+.about {
   height: 100vh;
   background: linear-gradient(0deg, #008878 0%, #2f4858 100%);
   display: flex;
@@ -7,7 +7,7 @@
 }
 
 .section-title {
-  margin: 3vh;
+  margin: 1em;
   font-weight: 700;
   color: #ffbc0a;
   font-size: 76px;
@@ -28,12 +28,12 @@
 .about-info-text {
   color: #fff;
   font-size: 22px;
-  padding: 3vh;
+  padding: 3em;
 }
-
 .buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 1em;
 }
 
 .about-btn {

@@ -8,7 +8,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div id="about">
+    <div className="about">
       <div className="section-title">About me</div>
       <div className="about-container">
         <img

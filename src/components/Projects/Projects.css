@@ -1,7 +1,7 @@
 #projects {
   align-items: center;
   background: #2f4858;
-  padding: 2em;
+  padding: 2vw;
 }
 
 .projects-sectionTitle {
@@ -11,7 +11,7 @@
   text-align: center;
   text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
   border-bottom: 5px solid #ffbc0a;
-  padding-bottom: 1rem;
+  padding-bottom: 1vh;
 }
 
 .projects-container {
@@ -22,12 +22,13 @@
 .row {
   display: flex;
   padding: 2vw;
+  justify-content: space-between;
 }
 
 .project-text {
   text-align: left;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 1.5em;
 }
 
 .project-title {
@@ -71,6 +72,12 @@
 .see-live:hover {
   background-color: rgba(169, 169, 169, 0.3);
   transition: 200ms all ease-in-out;
+}
+
+.project-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .source-code:link,
