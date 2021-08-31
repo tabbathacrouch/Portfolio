@@ -21,7 +21,9 @@ function About() {
         />
         <div className="about-info">
           <div className="about-info-text">
-            I recently completed Udemy's{" "}
+            Former Mathematics educator and content developer --> now a
+            self-taught software developer seeking a full-time role in front-end
+            web development. I recently completed Udemy's{" "}
             <a href={cert1} target="_blank" rel="noreferrer">
               The Complete Web Developer in 2021: Zero to Mastery
             </a>{" "}
@@ -38,6 +40,11 @@ function About() {
               Andrei Neagoie
             </a>
             . <br />
+            Languages, technologies, databases, and libaries that I am familiar
+            with include (not limited to): HTML5, CSS, JavaScript, Reactjs,
+            Formik, Yup, Firebase, SQL, Postgres, MaterialUI, and Bootstrap.
+            <br />
+            <br />
             Check out my projects below!
           </div>
           <div className="buttons">

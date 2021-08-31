@@ -2,7 +2,7 @@ import React from "react";
 import CardTilt from "./CardTilt.js";
 import "./Projects.css";
 import onlineTest from "./assets/online-test.png";
-import garden from "./assets/garden.jpeg";
+import barChart from "./assets/barChart.png";
 import numberChart from "./assets/numberChart.jpeg";
 import trivia from "./assets/trivia.jpeg";
 
@@ -54,55 +54,7 @@ function Projects() {
               <img
                 className="project-image"
                 src={onlineTest}
-                alt="project 1"
-                width="192px"
-                height="192px"
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="project-text">
-            <div className="project-title">Gardening (UNDER CONSTRUCTION)</div>
-
-            <div className="project-info">
-              This React app utilizes Bootstrap (v5.0) and fetches information
-              from two APIs. You can input a zipcode and determine your
-              hardiness zone as well as learn what types of plants thrive in
-              your area. Or you can upload one or more photos of a plant you
-              wish to identify.
-            </div>
-            <div className="project-buttons">
-              <a
-                className="see-live"
-                href="https://gardening-react-app.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                See Live
-              </a>
-              <a
-                className="source-code"
-                href="https://github.com/tabbathacrouch/Gardening"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source Code
-              </a>
-            </div>
-          </div>
-
-          <div className="card" onMouseOver={CardTilt}>
-            <a
-              href="https://gardening-react-app.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="project-image"
-                src={garden}
-                alt="project 1"
+                alt="online test icon"
                 width="192px"
                 height="192px"
               />
@@ -149,9 +101,78 @@ function Projects() {
               <img
                 className="project-image"
                 src={trivia}
-                alt="project 1"
+                alt="trivia night icon"
                 width="192px"
                 height="153px"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="project-text">
+            <div className="project-title">React Chart Generator</div>
+
+            <div className="project-info">
+              This React app utilizes three npm packages:{" "}
+              <a
+                href="https://www.npmjs.com/package/react-chartjs-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                react-chartjs-2
+              </a>
+              ,{" "}
+              <a
+                href="https://www.npmjs.com/package/chart.js?activeTab=readme"
+                target="_blank"
+                rel="noreferrer"
+              >
+                chart.js
+              </a>
+              , and{" "}
+              <a
+                href="https://www.npmjs.com/package/file-saver"
+                target="_blank"
+                rel="noreferrer"
+              >
+                file-saver
+              </a>
+              . Create a custom vertical or horizontal bar chart, pie chart, or
+              line chart and save the canvas as a .png file.
+            </div>
+            <div className="project-buttons">
+              <a
+                className="see-live"
+                href="https://tabbathacrouch.github.io/react-chart-generator/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                See Live
+              </a>
+              <a
+                className="source-code"
+                href="https://github.com/tabbathacrouch/react-chart-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div className="card" onMouseOver={CardTilt}>
+            <a
+              href="https://tabbathacrouch.github.io/react-chart-generator/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="project-image"
+                src={barChart}
+                alt="bar chart icon"
+                width="192px"
+                height="192px"
               />
             </a>
           </div>
@@ -196,7 +217,7 @@ function Projects() {
               <img
                 className="project-image"
                 src={numberChart}
-                alt="number chart"
+                alt="number chart icon"
                 width="152px"
                 height="192px"
               />
