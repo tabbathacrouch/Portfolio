@@ -111,7 +111,9 @@ function Projects() {
 
         <div className="row">
           <div className="project-text">
-            <div className="project-title">React Chart Generator</div>
+            <div className="project-title">
+              React Chart Generator (UNDER CONSTRUCTION)
+            </div>
 
             <div className="project-info">
               This React app utilizes three npm packages:{" "}

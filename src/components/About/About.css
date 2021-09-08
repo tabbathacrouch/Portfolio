@@ -10,7 +10,7 @@
   margin: 0.25em;
   font-weight: 700;
   color: #ffbc0a;
-  font-size: 76px;
+  font-size: 3.5em;
   text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
   border-bottom: 5px solid #ffbc0a;
 }
@@ -27,13 +27,12 @@
 
 .about-info-text {
   color: #fff;
-  font-size: 22px;
-  padding: 3em;
+  font-size: 1.4em;
+  padding: 2em 0 1em 2em;
 }
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 1em;
 }
 
 .about-btn {
@@ -65,13 +64,13 @@
 
 @media screen and (max-width: 600px) {
   .section-title {
-    font-size: 36px;
+    font-size: 2.5em;
   }
 
   .about-container,
   .about-info-text,
   .about-btn {
-    font-size: 14px;
+    font-size: 1em;
   }
 
   .profile-image {
