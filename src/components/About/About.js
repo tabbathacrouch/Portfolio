@@ -22,8 +22,8 @@ function About() {
         <div className="about-info">
           <div className="about-info-text">
             Former Mathematics educator and content developer --> now a
-            self-taught software developer seeking a full-time role in front-end
-            web development. I recently completed Udemy's{" "}
+            self-taught developer seeking a full-time role in front-end web
+            development. I recently completed Udemy's{" "}
             <a href={cert1} target="_blank" rel="noreferrer">
               The Complete Web Developer in 2021: Zero to Mastery
             </a>{" "}
