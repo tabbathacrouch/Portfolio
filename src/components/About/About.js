@@ -40,12 +40,68 @@ function About() {
               Andrei Neagoie
             </a>
             . <br />
-            Languages, technologies, databases, and libaries that I am familiar
-            with include (not limited to): HTML5, CSS, JavaScript, Reactjs,
-            Formik, Yup, Firebase, SQL, Postgres, MaterialUI, and Bootstrap.
-            <br />
-            <br />
-            Check out my projects below!
+            <div class="techstack">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/100px-HTML5_logo_and_wordmark.svg.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/100px-CSS3_logo_and_wordmark.svg.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png"
+                height="100px"
+                width="150px"
+                alt=""
+              />
+              <img
+                src="https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
+                height="100px"
+                width="200px"
+                alt=""
+              />
+              <img
+                src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-13.png"
+                height="100px"
+                width="150px"
+                alt=""
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+              <img
+                src="https://www.pngitem.com/pimgs/m/577-5779757_react-material-ui-logo-hd-png-download.png"
+                height="100px"
+                width="125px"
+                alt=""
+              />
+              <img
+                src="https://toppng.com/uploads/preview/bootstrap-featured-image-bootstrap-3-logo-11563293130teouf93qpu.png"
+                height="100px"
+                width="100px"
+                alt=""
+              />
+            </div>
           </div>
           <div className="buttons">
             <Link to="projects" activeClass="active" spy={true} smooth={true}>

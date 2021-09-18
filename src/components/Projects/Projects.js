@@ -111,9 +111,7 @@ function Projects() {
 
         <div className="row">
           <div className="project-text">
-            <div className="project-title">
-              React Chart Generator (UNDER CONSTRUCTION)
-            </div>
+            <div className="project-title">React Chart Generator</div>
 
             <div className="project-info">
               This React app utilizes three npm packages:{" "}
@@ -146,7 +144,7 @@ function Projects() {
             <div className="project-buttons">
               <a
                 className="see-live"
-                href="https://tabbathacrouch.github.io/react-chart-generator/"
+                href="https://react-chart-generator.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -165,7 +163,7 @@ function Projects() {
 
           <div className="card" onMouseOver={CardTilt}>
             <a
-              href="https://tabbathacrouch.github.io/react-chart-generator/"
+              href="https://react-chart-generator.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
