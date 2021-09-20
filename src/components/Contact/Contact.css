@@ -3,37 +3,80 @@
   background: #444444;
   display: flex;
   flex-direction: column;
-  padding: 10vh;
+  padding: 3vh;
 }
 
 .contact-title {
   display: flex;
-  font-size: 76px;
+  font-size: 3em;
   font-weight: 700;
   color: #ffbc0a;
   text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
   border-bottom: 5px solid #ffbc0a;
 }
 
+.contact-form {
+  margin-top: 1em;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #ffbc0a;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 1em;
+  width: 65vw;
+  font-size: 1.25em;
+}
+
+.form > label{
+  padding-bottom: 1em;
+}
+
+.form > label > textarea, .form > label > input {
+  margin-top: 0.5em;
+  display: flex;
+  width: -webkit-fill-available;
+  line-height: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-submit {
+  padding: 0.75em;
+  font-size: 0.8em;
+  background-color: #ffbc0a;
+  border: none;
+}
+
+.form-submit:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 .email {
   font-size: 22px;
-  padding-top: 5vh;
+  padding-top: 0.5em;
 }
 
 .email-link:link,
 .email-link:visited {
-  color: #fff;
+  color: #ffbc0a;
   text-decoration: none;
 }
 
 .email-link:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffbc0a;
 }
 
 .social-links {
   display: flex;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 1em;
+}
+
+.social-links:hover {
+  cursor: pointer;
 }
 
 .github {
@@ -42,9 +85,12 @@
 
 @media screen and (max-width: 600px) {
   .contact-title {
-    font-size: 36px;
+    font-size: 28px;
   }
   .email {
+    font-size: 14px;
+  }
+  .contact-form{
     font-size: 14px;
   }
 }

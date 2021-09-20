@@ -72,7 +72,8 @@
 }
 
 .techstack > img {
-  padding: 0.25em;
+  padding-right: 0.5em;
+  padding-left: 0.5em
 }
 
 @media screen and (max-width: 600px) {

@@ -21,9 +21,9 @@ function About() {
         />
         <div className="about-info">
           <div className="about-info-text">
-            Former Mathematics educator and content developer --> now a
-            self-taught developer seeking a full-time role in front-end web
-            development. I recently completed Udemy's{" "}
+            Former Mathematics educator and content developer turned software
+            developer open to opportunities in web development. I recently
+            completed Udemy's{" "}
             <a href={cert1} target="_blank" rel="noreferrer">
               The Complete Web Developer in 2021: Zero to Mastery
             </a>{" "}
@@ -40,66 +40,66 @@ function About() {
               Andrei Neagoie
             </a>
             . <br />
-            <div class="techstack">
+            <div className="techstack">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/100px-HTML5_logo_and_wordmark.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
                 height="100px"
                 width="100px"
-                alt=""
+                alt="HTML5"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/100px-CSS3_logo_and_wordmark.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png"
                 height="100px"
-                width="100px"
-                alt=""
+                width="70px"
+                alt="CSS3"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 height="100px"
                 width="100px"
-                alt=""
+                alt="JavaScript"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png"
+                src="https://luminfire.com/wp-content/uploads/2017/12/React_Logo_596x200.png"
                 height="100px"
-                width="150px"
-                alt=""
+                width="298px"
+                alt="React"
               />
               <img
                 src="https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png"
                 height="100px"
-                width="100px"
-                alt=""
+                width="116px"
+                alt="Formik"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
                 height="100px"
-                width="200px"
-                alt=""
+                width="290px"
+                alt="Firebase"
               />
               <img
                 src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-13.png"
                 height="100px"
                 width="150px"
-                alt=""
+                alt="MySQL"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
                 height="100px"
                 width="100px"
-                alt=""
+                alt="Postgres"
               />
               <img
-                src="https://www.pngitem.com/pimgs/m/577-5779757_react-material-ui-logo-hd-png-download.png"
-                height="100px"
-                width="125px"
-                alt=""
-              />
-              <img
-                src="https://toppng.com/uploads/preview/bootstrap-featured-image-bootstrap-3-logo-11563293130teouf93qpu.png"
+                src="https://material-ui.com/static/logo.png"
                 height="100px"
                 width="100px"
-                alt=""
+                alt="Material-ui"
+              />
+              <img
+                src="https://commons.bmstu.wiki/images/b/b8/Bootstrap.png"
+                height="100px"
+                width="100px"
+                alt="Bootstrap"
               />
             </div>
           </div>

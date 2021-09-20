@@ -64,7 +64,7 @@ function Projects() {
 
         <div className="row">
           <div className="project-text">
-            <div className="project-title">Trivia (UNDER CONSTRUCTION)</div>
+            <div className="project-title">Trivia</div>
 
             <div className="project-info">
               Select a category, fetch trivia questions and answers from{" "}
