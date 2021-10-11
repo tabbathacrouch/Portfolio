@@ -1,14 +1,14 @@
 import React from "react";
 import CardTilt from "./CardTilt.js";
-import "./Projects.css";
 import onlineTest from "./assets/online-test.png";
 import barChart from "./assets/barChart.png";
 import numberChart from "./assets/numberChart.jpeg";
 import trivia from "./assets/trivia.jpeg";
+import "./Projects.css";
 
 function Projects() {
   return (
-    <div id="projects">
+    <div className="projects">
       <div className="projects-sectionTitle">Projects</div>
       <div className="projects-container">
         <div className="row">
@@ -24,24 +24,6 @@ function Projects() {
               personalized dashboard. Register as a user today! <br />
               All of the forms in this React app use MaterialUI, Formik, and Yup
               (form validation).
-            </div>
-            <div className="project-buttons">
-              <a
-                className="see-live"
-                href="https://math-test-maker.herokuapp.com/register"
-                target="_blank"
-                rel="noreferrer"
-              >
-                See Live
-              </a>
-              <a
-                className="source-code"
-                href="https://github.com/tabbathacrouch/Math-Test-Maker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source Code
-              </a>
             </div>
           </div>
 

@@ -1,5 +1,6 @@
 .about {
   height: 100vh;
+  width: 100vw;
   background: linear-gradient(0deg, #008878 0%, #2f4858 100%);
   display: flex;
   flex-direction: column;
@@ -27,8 +28,9 @@
 
 .about-info-text {
   color: #fff;
-  font-size: 1.4em;
-  padding: 1em;
+  font-size: 1.25em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .buttons {
@@ -45,7 +47,7 @@
   border-radius: 0.25em;
   padding: 0.5em 1.25em;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 1.25em;
 }
 
 .about-btn:hover {
@@ -63,17 +65,19 @@
   text-decoration: underline;
 }
 
-.techstack {
-  padding-top: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.techstack_container {
+	margin-top: 1rem
 }
 
-.techstack > img {
-  padding-right: 0.5em;
-  padding-left: 0.5em
+.techstack {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techstack_image {
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 600px) {

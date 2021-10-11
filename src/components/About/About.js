@@ -5,6 +5,16 @@ import profile from "./assets/profile.jpg";
 import cert1 from "./assets/Udemy Certificate_Course 1.pdf";
 import cert2 from "./assets/Udemy Certificate_Course 2.pdf";
 import "./About.css";
+import html from "./assets/html_logo.png";
+import css from "./assets/css_logo.png";
+import javascript from "./assets/JavaScript-logo.png";
+import reactLogo from "./assets/React_Logo.png";
+import formikLogo from "./assets/formik_logo.png";
+import firebaseLogo from "./assets/Firebase_Logo.png";
+import mySQL_logo from "./assets/mySQL_logo.png";
+import postgresLogo from "./assets/postgres_logo.png";
+import materialui_logo from "./assets/material-logo.png";
+import bootstrapLogo from "./assets/Bootstrap_logo.png";
 
 function About() {
   return (
@@ -39,68 +49,40 @@ function About() {
             >
               Andrei Neagoie
             </a>
-            . <br />
+            .
+          </div>
+          <div className="techstack_container">
             <div className="techstack">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-                height="100px"
-                width="100px"
-                alt="HTML5"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png"
-                height="100px"
-                width="70px"
-                alt="CSS3"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                height="100px"
-                width="100px"
-                alt="JavaScript"
-              />
-              <img
-                src="https://luminfire.com/wp-content/uploads/2017/12/React_Logo_596x200.png"
-                height="100px"
-                width="298px"
-                alt="React"
-              />
-              <img
-                src="https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png"
-                height="100px"
-                width="116px"
-                alt="Formik"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
-                height="100px"
-                width="290px"
-                alt="Firebase"
-              />
-              <img
-                src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-13.png"
-                height="100px"
-                width="150px"
-                alt="MySQL"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
-                height="100px"
-                width="100px"
-                alt="Postgres"
-              />
-              <img
-                src="https://material-ui.com/static/logo.png"
-                height="100px"
-                width="100px"
-                alt="Material-ui"
-              />
-              <img
-                src="https://commons.bmstu.wiki/images/b/b8/Bootstrap.png"
-                height="100px"
-                width="100px"
-                alt="Bootstrap"
-              />
+              <div className="techstack_image">
+                <img src={html} height="100px" alt="HTML5" />
+              </div>
+              <div className="techstack_image">
+                <img src={css} height="100px" alt="CSS3" />
+              </div>
+              <div className="techstack_image">
+                <img src={javascript} height="100px" alt="JavaScript" />
+              </div>
+              <div className="techstack_image">
+                <img src={reactLogo} height="100px" alt="React" />
+              </div>
+              <div className="techstack_image">
+                <img src={formikLogo} height="100px" alt="Formik" />
+              </div>
+              <div className="techstack_image">
+                <img src={firebaseLogo} height="100px" alt="Firebase" />
+              </div>
+              <div className="techstack_image">
+                <img src={mySQL_logo} height="100px" alt="MySQL" />
+              </div>
+              <div className="techstack_image">
+                <img src={postgresLogo} height="100px" alt="Postgres" />
+              </div>
+              <div className="techstack_image">
+                <img src={materialui_logo} height="100px" alt="Material-ui" />
+              </div>
+              <div className="techstack_image">
+                <img src={bootstrapLogo} height="100px" alt="Bootstrap" />
+              </div>
             </div>
           </div>
           <div className="buttons">

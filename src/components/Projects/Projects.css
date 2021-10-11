@@ -1,7 +1,8 @@
-#projects {
+.projects {
   align-items: center;
   background: #2f4858;
   padding: 2vw;
+
 }
 
 .projects-sectionTitle {
@@ -20,9 +21,9 @@
 }
 
 .row {
-  display: flex;
   padding: 2vw;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .project-text {
@@ -102,6 +103,7 @@
   align-items: flex-start;
   align-self: center;
   background-color: #fff;
+  width: fit-content;
 }
 
 @media screen and (max-width: 600px) {

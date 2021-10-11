@@ -3,9 +3,4 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: fit-content;
-}
-
-code {
-  font-family: "Open Sans", sans-serif;
 }
