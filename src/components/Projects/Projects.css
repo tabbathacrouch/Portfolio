@@ -24,6 +24,7 @@
   padding: 2vw;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .project-text {
