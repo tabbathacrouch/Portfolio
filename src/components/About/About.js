@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import resume from "./assets/Tabbatha Crouch_Resume.pdf";
+import resume from "./assets/Tabbatha_Crouch_Resume.pdf";
 import profile from "./assets/profile.jpg";
 import cert1 from "./assets/Udemy Certificate_Course 1.pdf";
 import cert2 from "./assets/Udemy Certificate_Course 2.pdf";
