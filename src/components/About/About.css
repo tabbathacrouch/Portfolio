@@ -1,7 +1,7 @@
 .about {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
-  background: linear-gradient(0deg, #008878 0%, #2f4858 100%);
+  background: linear-gradient(0deg, rgba(0,136,120, 0.8) 0%, #2f4858 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,12 +89,12 @@
   .about-info-text,
   .about-btn {
     font-size: .85em;
-    padding: 0.5em;
+    padding: 0.1em;
   }
 
   .profile-image {
-    width: 50%;
-    height: auto;
+    width: 25%;
+    height: 25%;
   }
 
   .techstack_image > img {
