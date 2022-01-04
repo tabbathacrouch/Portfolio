@@ -6,7 +6,7 @@ import formikLogo from "./assets/formik_logo.png";
 import materialuiLogo from "./assets/material-logo.png";
 import bootstrapLogo from "./assets/Bootstrap_logo.png";
 import firebaseLogo from "./assets/Firebase_Logo.png";
-import mysqlLogo from "./assets/mySQL_logo.png";
+import mysqlLogo from "./assets/mysql-logo.png";
 import postgresLogo from "./assets/postgres_logo.png";
 
 export {
