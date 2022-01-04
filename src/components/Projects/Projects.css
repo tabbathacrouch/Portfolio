@@ -128,6 +128,6 @@
 
   .project-image {
     width: 64px;
-    height: 64px;
+    height: auto;
   }
 }

@@ -32,11 +32,14 @@
   padding: 1em 1em 0 1em;
 }
 
+
 .buttons {
+  width: 75vw;
   display: flex;
   justify-content: space-evenly;
   margin-top: 1em;
 }
+
 
 .about-btn {
   border: none;
@@ -65,40 +68,23 @@
   text-decoration: underline;
 }
 
-.techstack_container {
-	margin-top: 1rem;
-}
-
-.techstack {
-	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.techstack_image {
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-
 @media screen and (max-width: 600px) {
   .section-title {
-    font-size: 1.25em;
+    font-size: 1.75em;
   }
 
   .about-container,
-  .about-info-text,
-  .about-btn {
-    font-size: .85em;
-    padding: 0.1em;
+  .about-info-text{
+    font-size: 0.95em;
+    padding: 0.5em;
   }
-
+  
+.about-btn{
+  font-size: 0.85em;
+  padding: 0.5em;
+}
   .profile-image {
-    width: 25%;
-    height: 25%;
-  }
-
-  .techstack_image > img {
-    width: fit-content;
-    height: 65px;
+    max-width: fit-content;
+    height: 100px;
   }
 }

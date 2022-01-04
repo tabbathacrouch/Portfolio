@@ -1,6 +1,6 @@
 import React from "react";
 import CardTilt from "./CardTilt.js";
-import onlineTest from "./assets/online-test.png";
+// import onlineTest from "./assets/online-test.png";
 import barChart from "./assets/barChart.png";
 import numberChart from "./assets/numberChart.jpeg";
 import trivia from "./assets/trivia.jpeg";
@@ -11,7 +11,7 @@ function Projects() {
     <div className="projects">
       <div className="projects-sectionTitle">Projects</div>
       <div className="projects-container">
-        <div className="row">
+        {/* <div className="row">
           <div className="project-text">
             <div className="project-title">
               Math Test Generator (IN DEVELOPMENT)
@@ -42,11 +42,14 @@ function Projects() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="row">
           <div className="project-text">
-            <div className="project-title">Trivia (IN DEVELOPMENT)</div>
+            <div className="project-title">
+              Trivia <br />
+              (IN DEVELOPMENT)
+            </div>
 
             <div className="project-info">
               Select a category, fetch trivia questions and answers from{" "}

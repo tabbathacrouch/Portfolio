@@ -5,16 +5,7 @@ import profile from "./assets/profile.jpg";
 import cert1 from "./assets/Udemy Certificate_Course 1.pdf";
 import cert2 from "./assets/Udemy Certificate_Course 2.pdf";
 import "./About.css";
-import html from "./assets/html_logo.png";
-import css from "./assets/css_logo.png";
-import javascript from "./assets/JavaScript-logo.png";
-import reactLogo from "./assets/React_Logo.png";
-import formikLogo from "./assets/formik_logo.png";
-import firebaseLogo from "./assets/Firebase_Logo.png";
-import mySQL_logo from "./assets/mySQL_logo.png";
-import postgresLogo from "./assets/postgres_logo.png";
-import materialui_logo from "./assets/material-logo.png";
-import bootstrapLogo from "./assets/Bootstrap_logo.png";
+import TechstackCarousel from "./TechstackCarousel";
 
 function About() {
   return (
@@ -51,52 +42,19 @@ function About() {
             </a>
             .
           </div>
-          <div className="techstack_container">
-            <div className="techstack">
-              <div className="techstack_image">
-                <img src={html} height="100px" alt="HTML5" />
-              </div>
-              <div className="techstack_image">
-                <img src={css} height="100px" alt="CSS3" />
-              </div>
-              <div className="techstack_image">
-                <img src={javascript} height="100px" alt="JavaScript" />
-              </div>
-              <div className="techstack_image">
-                <img src={reactLogo} height="100px" alt="React" />
-              </div>
-              <div className="techstack_image">
-                <img src={formikLogo} height="100px" alt="Formik" />
-              </div>
-              <div className="techstack_image">
-                <img src={firebaseLogo} height="100px" alt="Firebase" />
-              </div>
-              <div className="techstack_image">
-                <img src={mySQL_logo} height="100px" alt="MySQL" />
-              </div>
-              <div className="techstack_image">
-                <img src={postgresLogo} height="100px" alt="Postgres" />
-              </div>
-              <div className="techstack_image">
-                <img src={materialui_logo} height="100px" alt="Material-ui" />
-              </div>
-              <div className="techstack_image">
-                <img src={bootstrapLogo} height="100px" alt="Bootstrap" />
-              </div>
-            </div>
-          </div>
-          <div className="buttons">
-            <Link to="projects" activeClass="active" spy={true} smooth={true}>
-              <button type="button" className="about-btn">
-                View Projects
-              </button>
-            </Link>
-            <a href={resume} target="_blank" rel="noreferrer">
-              <button type="submit" className="about-btn">
-                View Resume
-              </button>
-            </a>
-          </div>
+        </div>
+        <TechstackCarousel />
+        <div className="buttons">
+          <Link to="projects" activeClass="active" spy={true} smooth={true}>
+            <button type="button" className="about-btn">
+              View Projects
+            </button>
+          </Link>
+          <a href={resume} target="_blank" rel="noreferrer">
+            <button type="submit" className="about-btn">
+              View Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
