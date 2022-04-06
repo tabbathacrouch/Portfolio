@@ -11,13 +11,13 @@ import {
   firebaseLogo,
   mysqlLogo,
   postgresLogo,
+  typeScriptLogo,
 } from "./images.js";
 
 function TechstackCarousel() {
   const images = [
-    html,
-    css,
     javascript,
+    typeScriptLogo,
     reactLogo,
     formikLogo,
     materialuiLogo,
@@ -25,8 +25,10 @@ function TechstackCarousel() {
     firebaseLogo,
     mysqlLogo,
     postgresLogo,
+    html,
+    css,
   ];
-  const delay = 3000;
+  const delay = 4000;
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
 

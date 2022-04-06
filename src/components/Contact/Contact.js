@@ -72,7 +72,7 @@ function Contact() {
           />
         </a>
         <a
-          href="https://github.com/tabbathacrouch"
+          href="https://github.com/tabbathacrouch/"
           target="_blank"
           rel="noreferrer"
         >

@@ -1,10 +1,9 @@
 /* Slideshow */
-
 .slideshow {
     margin-top: 1.5em;
     overflow: hidden;
-    max-width: 550px;
-    background-color: rgba(250,250,250,0.1);
+    max-width: 75vw;
+    background-color: rgba(200, 200, 200, 0.5);
     padding-top: 0.5em;
     border-radius: 0.75em;
   }
@@ -22,7 +21,6 @@
   }
   
   /* Buttons */
-  
   .slideshowDots {
     text-align: center;
   }
@@ -38,7 +36,7 @@
   }
   
   .slideshowDot.active {
-    background-color: #2f4858;
+    background-color: #2F4858;
   }
 
   @media screen and (max-width: 600px) {

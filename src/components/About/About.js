@@ -22,9 +22,19 @@ function About() {
         />
         <div className="about-info">
           <div className="about-info-text">
-            Former Mathematics educator and content developer turned software
-            developer open to opportunities in web development. I recently
-            completed Udemy's{" "}
+            Self-taught full stack developer with a soft spot for front end. My
+            previous experience as a Mathematics content developer makes me a
+            stickler for documentation. My software journey started in
+            JavaScript and React, and has recently shifted to TypeScript and
+            React-Native. I am active on{" "}
+            <a
+              href="https://exercism.org/profiles/tabbathacrouch/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Exercism
+            </a>{" "}
+            and have completed a couple of Udemy courses:{" "}
             <a href={cert1} target="_blank" rel="noreferrer">
               The Complete Web Developer in 2021: Zero to Mastery
             </a>{" "}

@@ -8,6 +8,7 @@ import bootstrapLogo from "./assets/Bootstrap_logo.png";
 import firebaseLogo from "./assets/Firebase_Logo.png";
 import mysqlLogo from "./assets/mysql-logo.png";
 import postgresLogo from "./assets/postgres_logo.png";
+import typeScriptLogo from "./assets/Typescript_logo.png";
 
 export {
   html,
@@ -20,4 +21,5 @@ export {
   firebaseLogo,
   mysqlLogo,
   postgresLogo,
+  typeScriptLogo,
 };
