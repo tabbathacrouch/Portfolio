@@ -10,7 +10,7 @@
   
   .slideshowSlider {
     white-space: nowrap;
-    transition: ease 1000ms;
+    transition: 0.6s ease;
   }
   
   .slide {

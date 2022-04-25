@@ -42,7 +42,7 @@ function About() {
             <a href={cert2} target="_blank" rel="noreferrer">
               The Complete Junior to Senior Web Developer Roadmap (2021)
             </a>{" "}
-            courses as taught by{" "}
+            taught by{" "}
             <a
               href="https://www.udemy.com/user/andrei-neagoie/"
               target="_blank"
