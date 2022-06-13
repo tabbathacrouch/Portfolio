@@ -1,16 +1,35 @@
 #title {
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  height: 100vmin;
   background: #2f4858;
   color: #ffbc0a;
-  padding: 3vw;
+  padding: 2.5vmax;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vmin;
+}
+
+.title-profile-img {
+  padding: 2.5vmin;
+}
+
+.title-profile-img > img {
+  width: 30vmin;
+  height: 30vmin;
+  border-radius: 50%;
 }
 
 .title-sectionTitle {
   font-weight: 700;
-  font-size: 45px;
-  padding-bottom: 3vh;
+  font-size: 5vmax;
+  padding-bottom: 3vmin;
+  padding-left: 3vmin;
 }
 
 .title-btn {
@@ -18,11 +37,13 @@
   outline: none;
   color: #ffbc0a;
   background-color: transparent;
-  box-shadow: 6px 6px 12px 12px rgba(50, 50, 70, 0.3);
+  box-shadow: 3px 3px 6px 6px rgba(50, 50, 70, 0.3);
   border-radius: 0.25em;
-  padding: 0.3em 1.2em;
+  padding: 0.5em 1em;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 3vmax;
+  display: flex;
+  align-items: center;
 }
 
 .title-btn:hover {
@@ -36,10 +57,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  #title {
+    height: 75vmax;
+  }
+  
   .title-sectionTitle {
-    font-size: 26px;
+    font-size: 2vmax;
   }
   .title-btn {
-    font-size: 16px;
+    font-size: 2vmax;
+  }
+
+  .buttons-title {
+    justify-content: space-between;
   }
 }
